@@ -1,1 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chatbot Evaluation</title>
 
+<style>
+body{
+font-family: Arial;
+background:#f4f9ff;
+margin:0;
+padding:0;
+}
+
+header{
+background:#2b6cb0;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+section{
+background:white;
+margin:20px;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 10px lightgray;
+}
+
+h2{
+color:#2b6cb0;
+}
+
+ul{
+line-height:1.8;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+table,th,td{
+border:1px solid gray;
+}
+
+th{
+background:#2b6cb0;
+color:white;
+padding:8px;
+}
+
+td{
+padding:8px;
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:10px;
+background:#2b6cb0;
+color:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Chatbot Evaluation</h1>
+<p>Evaluation of a Chatbot Deployed in Production</p>
+</header>
+
+<section>
+<h2>Introduction</h2>
+<p>
+Chatbots are software programs that interact with users using text or voice.
+Many organizations deploy chatbots in production environments to provide
+customer support, answer queries, and automate tasks. Evaluating a chatbot
+helps understand its effectiveness, reliability, and user satisfaction.
+</p>
+</section>
+
+<section>
+<h2>Advantages of Chatbots</h2>
+<ul>
+<li>24/7 customer support without human intervention.</li>
+<li>Quick responses to user queries.</li>
+<li>Reduces workload for human agents.</li>
+<li>Handles multiple users at the same time.</li>
+<li>Improves user engagement and experience.</li>
+</ul>
+</section>
+
+<section>
+<h2>Challenges of Chatbots</h2>
+<ul>
+<li>Difficulty understanding complex user queries.</li>
+<li>Limited responses if training data is insufficient.</li>
+<li>May give incorrect or irrelevant answers.</li>
+<li>Requires regular updates and maintenance.</li>
+<li>Security and privacy concerns.</li>
+</ul>
+</section>
+
+<section>
+<h2>Evaluation Parameters</h2>
+
+<table>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>Accuracy</td>
+<td>Correctness of chatbot responses</td>
+</tr>
+
+<tr>
+<td>Response Time</td>
+<td>Speed of answering user queries</td>
+</tr>
+
+<tr>
+<td>User Satisfaction</td>
+<td>How satisfied users are with responses</td>
+</tr>
+
+<tr>
+<td>Scalability</td>
+<td>Ability to handle many users</td>
+</tr>
+
+<tr>
+<td>Reliability</td>
+<td>Consistency of chatbot performance</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+<h2>Conclusion</h2>
+<p>
+Chatbots are useful tools for automating communication and improving service
+efficiency. However, proper evaluation is necessary to ensure accuracy,
+security, and user satisfaction. Continuous improvement and monitoring help
+make chatbots more reliable in real-world applications.
+</p>
+</section>
+
+<footer>
+<p>Assignment: Chatbot Evaluation | Web Technology</p>
+</footer>
+
+</body>
+</html>
